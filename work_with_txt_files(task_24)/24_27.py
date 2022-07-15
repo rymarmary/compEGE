@@ -1,0 +1,5 @@
+f = open('24-5.txt')
+s = f.readline()
+k = s.count('()')
+print(k)
+f.close()
